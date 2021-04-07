@@ -13,5 +13,5 @@ mod timer;
 pub fn init() {
 	handler::init();
 	timer::init();
-	println!("mod interrupt initialized");
+	println!("Mod interrupt is initialized by Lingfeng Zhu.");
 }

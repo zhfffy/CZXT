@@ -14,5 +14,8 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
+algorithm = {path = "src/algorithm"}
 riscv = {path = "src/riscv"}
 buddy_system_allocator = {path = "src/buddy_system_allocator"}
+lazy_static = { version = "1.4.0", features = ["spin_no_std"] }
+spin = "0.5.2"
